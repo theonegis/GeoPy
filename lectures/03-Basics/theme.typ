@@ -104,6 +104,7 @@
   date: datetime.today().display("[year]年[month]月[day]日"),
   bg-image: none,
   logo-image: none,
+  title-font-size: 1.5em,
   toc-font-size: 28pt,
   toc-spacing: 0.8em,
   code-font-size: 0.9em,
@@ -140,7 +141,7 @@
       margin: (top: 2.5em),
     ),
     config-info(
-      title: text(size: 1.5em)[#title],
+      title: text(size: title-font-size)[#title],
       author: text(size: 1.6em)[#author],
       institution: text(size: 1.3em)[#institution],
       date: date,

@@ -67,7 +67,7 @@
 == 常用Python遥感处理库
 
 #table(
-  columns: (3fr, 5fr),
+  columns: (3.5fr, 5fr),
   align: (center, left),
   fill: (_, row) => if calc.even(row) { rgb("f4f4f4") },
   stroke: none,
